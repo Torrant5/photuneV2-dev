@@ -4,7 +4,6 @@ memo.txt
 *.pyc
 .ipynb_checkpoints
 .cache
-front/photune/README.md
 memo.txt
 mltest/photune_ai_test.ipynb
 
