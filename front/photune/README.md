@@ -3,7 +3,7 @@
 ## とりあえず起動させ方
 1. node.jsが入っていない場合インストール
 2. このディレクトリで `npm install`
-3. .envがあるか確認。なければ、.envに以下を書く。
+3. このディレクトリに.envがあるか確認。なければ、.envに以下を書く。
 
 ``` .env
    VUE_APP_API_BASE=https://ai.photune.net/
