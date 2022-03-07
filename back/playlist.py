@@ -16,14 +16,23 @@ def get_random():
             "playlist_name": playlist_name}
 
 def get_sample(id):
-    # TODO 余裕があれば変える きちんと予測した方が良い？
+    # TODO AIチューニング後、予測したものに変える...
     if id==1:
-        data = {"playlist_id": '3zVlpKfmFSKVHTfe8p8Kr5',
-            "playlist_name": '204 ピクニック日和に聴きたいプレイリスト'}
+        data = {"playlist_id": '37i9dQZF1E4lH3u1Jp9uoD',
+            "playlist_name": 'Flower Radio'}
+        # rapeseed
+        # data = {"playlist_id": '37i9dQZF1DXafb0IuPwJyF',
+        #     "playlist_name": 'Tokyo Super Hits!'}
     elif id==2:
-        data = {"playlist_id": '37i9dQZF1DXdLD1ufgw60J',
-            "playlist_name": 'Classical Cooking'}
+        data = {"playlist_id": '37i9dQZF1DWVqFWv4EZA70',
+            "playlist_name": 'Relax Brunch'}
+        # running_shoe
+        # data = {"playlist_id": '37i9dQZEVXbINTEnbFeb8d',
+        #     "playlist_name": 'Viral 50 - Japan'}
     else:
-        data = {"playlist_id": '75wr3eDFIfQJXNX1A3Vqq1',
-            "playlist_name": '海で聴きたい洋楽'}
+        data = {"playlist_id": '37i9dQZF1DX4Y4RhrZqHhr',
+            "playlist_name": 'Beach Party'}
+        # coral_reef
+        # data = {"playlist_id": '37i9dQZEVXbINTEnbFeb8d',
+        #     "playlist_name": 'Viral 50 - Japan'}
     return data

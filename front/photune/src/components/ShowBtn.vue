@@ -1,5 +1,5 @@
 <template>
-    <b-button variant="light" class="m-1 p-0">
+    <b-button variant="light" class="m-1 p-0 border border-secondary">
         <b-icon v-if="isShow" icon="arrows-angle-contract" font-scale="1" @click="onClick"></b-icon>    
         <b-icon v-if="!isShow" icon="arrows-angle-expand" font-scale="1" @click="onClick"></b-icon>    
     </b-button>

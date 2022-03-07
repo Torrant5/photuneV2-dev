@@ -1,4 +1,5 @@
 .env
+.env*
 venv
 memo.txt
 *.pyc
@@ -6,6 +7,7 @@ memo.txt
 .cache
 memo.txt
 mltest/photune_ai_test.ipynb
+memorandum.md
 
 .DS_Store
 node_modules

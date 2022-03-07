@@ -7,9 +7,9 @@
             </b-col>
             <b-col cols="9" md="12" class="my-auto py-2">
                 <b-row class="desc">
-                    <b-col cols="12" class="h4">{{name}}</b-col>
-                    <b-col cols="12">{{univ}}</b-col>
-                    <b-col cols="12">{{msg}}</b-col>
+                    <b-col cols="12"><h4>{{name}}</h4></b-col>
+                    <b-col cols="12"><p class="mb-0 mx-1">{{univ}}</p></b-col>
+                    <b-col cols="12"><p class="mb-0 mx-1">{{msg}}</p></b-col>
                 </b-row>         
             </b-col>
         </b-row>
@@ -44,9 +44,15 @@ export default {
     text-align: left;
 }
 
-h1 {
+h4 {
     font-size: 20px;
     font-weight: bold;
-    color: #f9f9f9;
+    color: #ddd;
 }
+
+@media (min-width:768px) { 
+    h4 {
+        text-align: center;
+    }
+ }
 </style>
